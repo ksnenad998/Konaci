@@ -487,7 +487,6 @@ body {
     top: 0px;
     z-index: 999;
     width: 100%;
-    margin-bottom: -69px;
     transition: all 500ms ease;
     -moz-transition: all 500ms ease;
     -webkit-transition: all 500ms ease;
@@ -714,7 +713,7 @@ body {
 .main-header .header-upper {
     position: relative;
     background: whitesmoke;
-    padding: 0px 0px 22px 0px;
+    padding: 0px;
 }
 
 .main-header .header-upper .top-left {
@@ -3669,6 +3668,13 @@ body {
 .novicontainer {
     width: 65%;
     margin: auto;
+}
+
+@media only screen and (max-width: 767px) {
+    .novicontainer {
+        width: 90%;
+        margin: auto;
+    }
 }
 
 .tekstOnama {
